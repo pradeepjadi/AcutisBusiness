@@ -1,58 +1,45 @@
+<hr>
 	<!-- Footer -->
 	<footer>
-	<div class="inner-footer dark">
-	<div class="end-footer">
-		<div class="lastdiv">
-	  <div class="about column3">
-	      <div class="logo">
-				<a href="index.php"><img src="images/acutis.png" alt=""></a>
-		  </div>
-         </div>
-
-		<div style="text-align: center" class="about column3">
-			<h4>Menu</h4>
-			<ul>
+	<div class="footer-content">
+		<div class="footer-logo">
+			<img src="images/acutis.png" />
+		</div><!-- This is the End of the logo section in the footer -->
+		<div class="footer-menu">
+			<b class="text-green text-normal">Menu</b>
+			<ul class="text-normal">
 				<li><a href="#">Testing</a></li>
-				<li><a href="#">Order supplies </a></li>
-				<li><a href="#">Make a payment</a></li>
+				<li><a href="#">Order Supplies</a></li>
+				<li><a href="#">Make a Payment</a></li>
 				<li><a href="#">Articles</a></li>
 				<li><a href="#">Acu-Citizens</a></li>
 				<li><a href="#">i-Acutis</a></li>
 				<li><a href="#">Search</a></li>
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
-		</div>
-
-		<div style="text-align: center" class="service column3">
-			<h4>How Can We Help?</h4>
-			<ul>
-				<li><a href="#">SupportUs and ContactUS</a></li></br></br></br>
-				<li><a href="#">Follow Acutis Diagnostics</a></li>
+		</div><!-- This is the end of the menu section n the footer. -->
+		<div class="footer-help text-green">
+			<b class="text-green">How can we Help?</b>
 			
-			</ul>
-		</div>
-
-	
-
-		<div style="text-align: center" class="contact column3">
-			<h4>Acutis Diagnostics</h4>
-			
-			<p>728 Lakefield Rd.</p>
-			<p>East Northport</p>
-			<p>New york, 11731</p></br>
-			<p>1-844-522-8847</p></br>
-			<p>service@acutisdaiagnostics.com</p>
-		</div>
-		<div class="clear"></div>
-		<!-- End Contact -->
-		<div id="back-to-top">
-			<a href="#top">Back to Top</a>
-		</div>
-	</div>
-	<!-- End inner Footer -->
-
-	
-			
-		</div>
+				<p class="text-normal">Support us and Contact</p>
+					<br><br>
+				<p class="text-normal">Follow Acutis Diagnostics </p>	
+				<div class="footer-icons">
+					<a href=""><img src="icons/facebook-logo.png" /></a>
+					<a href=""><img src="icons/linkedin-logo.png" /></a>
+					<a href=""><img src="icons/twitter-logo-silhouette.png" /></a>
+					<a href=""><img src="icons/youtube.png" /></a>
+				</div>
+		</div><!-- This is the end of the help section in the footer.  -->
+		<div class="footer-contact">
+			<b class="text-normal text-green">Acutis Diagnostics</b>
+			<p class="text-normal text-green">
+			728 Larkfield Rd.<br>
+			East NorthPort<br>
+			New York, 11731<br><br>
+			1-844-522-8847<br><br>
+			service@acutisdiagnostics.com
+			</p>
+		</div><!-- This is the end of the contact section in the footer. -->
 	</div>
 	</footer>

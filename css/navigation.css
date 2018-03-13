@@ -41,16 +41,6 @@ ul#navlist li a {
    text-transform: uppercase;
 }
 
-ul#navlist li.current > a,
-ul#navlist li > a:hover{
-  color: #0099cc;
-  background:#005f60;
-}
-
-ul#navlist li a:hover {
-  color: #fff;}
-
-
 
 /* DropDown Menu = Superfish */
 .sf-menu {

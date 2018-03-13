@@ -8,9 +8,9 @@
 
 				<div class="subheader2">
 					<ul>
-						<li><a href="index.php">Home</a></li>
+						<li><a href="index.php" class="text-skyblue">Home</a></li>
 						<li><a href="#">Login</a></li>
-						<li><a href="#">e-Newsletter  </a></li>
+						<li><a href="#">e-Newsletter </a></li>
 						<li><a href="#">Blog</a></li>
 					</ul>				
 				</div>

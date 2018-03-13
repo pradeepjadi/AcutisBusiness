@@ -12,3 +12,4 @@ var tabContainers = $('div.tabs > div');
 				return false;
 			}).filter(':first').click();			
         });
+	   

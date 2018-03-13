@@ -8,20 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home:Acutis</title>
 
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/zebra.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/dr-framework.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/navigation.css" type="text/css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/fullwidth.css" media="screen" />
-	<link rel="stylesheet" href="css/revslider.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic' rel='stylesheet' type='text/css'>
-
-	
-
+<?php include("head.php"); ?>	
+<script type="text/javascript" src="js/custom.js" ></script>
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
@@ -39,9 +27,11 @@
 	<![endif]-->
 </head>
 <body>
-<?php include 'header.php' ;?>
+<?php include("header.php"); ?>
+<?php include("social-links.php"); ?>
+<div class="container" id="top">
 	 <!-- Slider -->
-	<div class="slider" >
+	<div class="slider" class="adjust">
 		<div class="flexslider">
 		  <ul class="slides">
 		    <li>
@@ -61,13 +51,13 @@
 		<h4><img src="images/calendar.png" alt="">Order supplies</h4>
 		<form id="contact-form2" action="#">
 			<div class="inputs">
-				<input name="name" id="name" type="text" data-value="Full Name">
-				<input name="mail" id="mail" type="text" data-value="E-mail Address">
+				<input name="name" id="name" type="text" data-value="Full Name" class="border-small">
+				<input name="mail" id="mail" type="text" data-value="E-Mail Address">
 				<input name="phone" id="phone" type="text" data-value="Phone Number">
-	       		<input name="date" id="date" type="text" data-value="dd/mm/yyyy 00:00">
+	       		<input name="date" id="date" type="text" data-value="DD/MM/YYYY 00:00">
 	        </div>
 
-			<input id="submit_contact2" type="submit" value="                order               ">
+			<input id="submit_contact2" type="submit" value="ORDER">
 			<div id="msg2" class="message"></div>
 		</form>
 		
@@ -91,7 +81,7 @@
 					</div>
 					<h4>Triple Check</h4>
 					<div class="line"></div>
-					<p>Acutis will bill your insurence<br> company directly for <br>testing and lab services</p>
+					<p>Acutis will bill your insurance<br> company directly for <br>testing and lab services</p>
 				</a>
 			</div>
 			<div class="features-items column3">
@@ -101,7 +91,7 @@
 					</div>
 					<h4>Quick Turnaround</h4>
 					<div class="line"></div>
-					<p>Acutis will bill your insurence<br> company directly for <br>testing and lab services</p>
+					<p>Acutis will bill your insurance<br> company directly for <br>testing and lab services</p>
 				</a>
 			</div>
 			<div class="features-items column3">
@@ -109,9 +99,9 @@
 					<div class="service-item">
 						<a href="#" class="service-img"><img src="images/three.png" alt=""></a>
 					</div>
-					<h4>Acees to Express</h4>
+					<h4>Access to Express</h4>
 					<div class="line"></div>
-					<p>Acutis will bill your insurence<br> company directly for <br>testing and lab services</p>
+					<p>Acutis will bill your insurance<br> company directly for <br>testing and lab services</p>
 				</a>
 			</div>
 			<div class="features-items column3">
@@ -121,28 +111,22 @@
 					</div>
 					<h4>Simplified Reports</h4>
 					<div class="line"></div>
-				<p>Acutis will bill your insurence<br> company directly for <br>testing and lab services</p>
+				<p>Acutis will bill your insurance<br> company directly for <br>testing and lab services</p>
 				</a>
 			</div>
 			<div class="clear"></div>
 		</div>
 		<!-- End Recent Works -->
-
-		<div class="contact2 colunm">
-		<p><strong>A new defination</strong> of service</p></br></br>
+		<div class="defination-content">
+			<p class="font-large"><span class="text-bold">A New Definition</span> of Service.</p>
+			<p class="text-indent-15">We have built a company with a commitment to the best science, technology and practices, all set in motion by deeply committed professionals.</p>
+			<p class="text-indent-15"><b>Acutis</b> is a company with no gaps.No Bureacracy.No Evasive hierarchy.From our CEO engaged in strategic planning and our Senior Scientists in the lab, to Sales Specialists on road, every employee is fully Accountable. Fully Accessible. Completely willing to assume responsibility. <b>So you have one less thing to worry about.</b></p>
 		</div>
 
-		<div class="contact1 cloumn">
-		<p>  We have built a company with a commitment oto the best science, technology and practices, all set in motion by deeply commited professionals</p>
-		<p > <strong>   Acutis</strong> is a company with no gaps.No bureacrusy.No esensive hierarchy.From our CEO engaged in strategic palnning and our Senior Scientists in the lab, to Sales Specialists on road, every employee is fully Accountable.</br>Fully Accessable. Completely willing to assume responsibility. <strong>So you have one less thing to worry about</strong> </p>
-		</div>
-		<div style="text-align: center" class="contact4 colunm">
-		<p> why am i being <strong> tested?</strong></p></br>
-		<img src="images/dotline.png" > </img>
-		</div>
-
-		<div  class="contact3 cloumn">
-		<p>  please do not contact your physician's office with questions about an invoice from Acutis</br>contact Acutis to discuss payment and our fanancial harship program</p>
+		<div class="tested-content">
+			<p class="font-large text-center">Why am i Being <span class="text-bold">Tested?</span></p>
+			<center><img src="images/dotline.png" /></center>
+			<p class="text-indent-15 text-center text-black text-normal">Please do not contact your physician's office with questions about an invoice from Acutis.</br>contact Acutis to discuss payment and our fanancial harship program</p>
 		</div>
 		
 		<div style="text-align: center" class="contact5 colunm">
@@ -166,6 +150,6 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/zebra_datepicker.js"></script>
     <script type="text/javascript" src="js/core.js"></script>
-
+</div>
 </body>
 </html>
